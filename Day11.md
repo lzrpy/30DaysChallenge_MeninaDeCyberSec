@@ -38,7 +38,7 @@
 
 
 ## Coleta de portas abertas - nmap
-- ICMP, TCP, HTTP 80, HTTPS 443
+- ICMP, TCP, HTTP 80, HTTPS 443, SSH 22
 
 
 ## Reputação URL - www.brightcloud.com/tools/url-ip-lookup.php
