@@ -7,8 +7,8 @@
 - IP do domínio -> 95.179.203.230
 - Localização do IP -> Greater London - London - 11 Hanbury St
 - DATES -> Created on 2020-12-31
-         Expires on 2026-12-31
-         Updated on 2022-08-19
+         - Expires on 2026-12-31
+         - Updated on 2022-08-19
 - NAME SERVERS -> - CURITIBA.NS.PORKBUN.COM (has 556,403 domains)
                 - FORTALEZA.NS.PORKBUN.COM (has 556,403 domains)
                 - MACEIO.NS.PORKBUN.COM (has 556,403 domains)
