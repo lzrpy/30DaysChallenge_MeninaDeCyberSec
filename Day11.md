@@ -1,4 +1,4 @@
-##Análise de URL
+# Análise de URL
 
 - Analisar a URL ‘polkabridge[.]org’ e coletar suas principais informações: IP, ASN, principais tecnologias utilizadas e o domínio principal. 
 
@@ -9,10 +9,10 @@
 - DATES -> Created on 2020-12-31
          Expires on 2026-12-31
          Updated on 2022-08-19
-- NAME SERVERS -> CURITIBA.NS.PORKBUN.COM (has 556,403 domains)
-                FORTALEZA.NS.PORKBUN.COM (has 556,403 domains)
-                MACEIO.NS.PORKBUN.COM (has 556,403 domains)
-                SALVADOR.NS.PORKBUN.COM (has 556,403 domains)
+- NAME SERVERS -> - CURITIBA.NS.PORKBUN.COM (has 556,403 domains)
+                - FORTALEZA.NS.PORKBUN.COM (has 556,403 domains)
+                - MACEIO.NS.PORKBUN.COM (has 556,403 domains)
+                - SALVADOR.NS.PORKBUN.COM (has 556,403 domains)
 - ASN -> AS20473 AS-CHOOPA, US (registered May 11, 2001) 
 - DOMINÍO PRINCIPAL -> polkabridge.org 
 
