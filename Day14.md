@@ -3,31 +3,20 @@
 Poste um resumo do que você pesquisou.
 
 ## O que é DDOS?
-- Bom, para iniciarmos o resumo de nossa pesquisa, vamos falar do que se trata a sigla DDOS. Distributed Denial of Service (DDOS),
-- que em português significa "Negação de serviço distribuído", é um ataque muito utilizado, onde o objetivo é interromper o 
-tráfego normal de um servidor, serviço ou rede, enviando inúmeras solicitações para o alvo com o objetivo de sobrecarregar sua 
-infraestrutura com uma inundação de tráfego da internet. O ataque DDOS provém do DOS, um outro tipo de ataque, no qual sua sigla
-se dá por "Denial Of Service", que traduzindo para português significa "Negação de Serviço". DOS e DDOS são ataques parecidos,
-e ambos funcionam da mesma maneira e possuem o mesmo objetivo, sendo diferente somente a forma em que é realizado.
-Enquanto o DOS é um tipo de ataque que envia inúmeros Pacotes de solicitação por segundo de um único ponto de origem, o DDOS
-envia esses mesmos pacotes de solicitação, porém de vários pontos de origem diferentes.
+- Bom, para iniciarmos o resumo de nossa pesquisa, vamos falar do que se trata a sigla DDOS. Distributed Denial of Service (DDOS), que em português significa "Negação de serviço distribuído", é um ataque muito utilizado, onde o objetivo é interromper o tráfego normal de um servidor, serviço ou rede, enviando inúmeras solicitações para o alvo com o objetivo de sobrecarregar sua infraestrutura com uma inundação de tráfego da internet. O ataque DDOS provém do DOS, um outro tipo de ataque, no qual sua sigla se dá por "Denial Of Service", que traduzindo para português significa "Negação de Serviço". DOS e DDOS são ataques parecidos, e ambos funcionam da mesma maneira e possuem o mesmo objetivo, sendo diferente somente a forma em que é realizado. Enquanto o DOS é um tipo de ataque que envia inúmeros Pacotes de solicitação por segundo de um único ponto de origem, o DDOS envia esses mesmos pacotes de solicitação, porém de vários pontos de origem diferentes.
 - EX: DOS -> Pacotes enviados ao alvo somente por um computador
 - EX: DDOS -> Pacotes enviados ao alvo por vários computadores em diferentes locais
 
 ## Como funciona um ataque DDOS?
 - Um ataque DDOS é efetuado por redes de máquina conectadas á internet. Essas redes são formadas por computadores que foram
-- infectados por um malware, onde cada dispositivo infectado é adicionado a uma rede totalmente gerenciada pelo invasor,
-permitindo assim que sejam controlados remotamente. Quando um dispositivo é infectado, chamamos-os de bots ou zumbis, e um grupo
-de bots na mesma rede, é chamado de botnet. Após uma botnet ser estabelecida, o invasor é capaz de direcionar o ataque enviando 
-instruções remotas para cada bot na rede, ou seja, quanto mais bots compor a rede, maior será o número de solicitações enviadas
-ao alvo, fazendo com que o serviço, servidor ou rede fique offline (fora de serviço).
+infectados por um malware, onde cada dispositivo infectado é adicionado a uma rede totalmente gerenciada pelo invasor,
+permitindo assim que sejam controlados remotamente. Quando um dispositivo é infectado, chamamos-os de bots ou zumbis, e um grupo de bots na mesma rede, é chamado de botnet. Após uma botnet ser estabelecida, o invasor é capaz de direcionar o ataque enviando instruções remotas para cada bot na rede, ou seja, quanto mais bots compor a rede, maior será o número de solicitações enviadas ao alvo, fazendo com que o serviço, servidor ou rede fique offline (fora de serviço).
 
 ## DDOS do lado do servidor
 - O servidor, serviço ou rede, por trabalhar com uma estrutura de threads, ou seja, é capaz de processar x tarefas 
 concorrentemente, ao receber solicitações e todos os seus threads já estiverem processando outras tarefas, as solicitações 
 que vão sendo recebidas e armazenadas em uma fila de espera, sendo lidas sequencialmente após certo thread ter finalizado o 
-processamento da solicitação anterior e assim por diante. Quando temos inúmeras solicitações por segundo, como cada thread está 
-ocupado lendo as solicitações, diversas vão sendo armazenas em fileira, causando a sobrecarga da infraestrutura.
+processamento da solicitação anterior e assim por diante. Quando temos inúmeras solicitações por segundo, como cada thread está ocupado lendo as solicitações, diversas vão sendo armazenas em fileira, causando a sobrecarga da infraestrutura.
 
 ## Como indetificar um ataque DDOS
 - O sintoma mais comum de um ataque DDOS, é que um serviço fique lento ou indisponível repentinamente. Como o sintoma citado
