@@ -45,3 +45,7 @@ desses sinais de um ataque de DDoS:
 - Utilizar um servidor de DNS Secundário
 - Criação de regras para bloqueio de IP's que atingirem x solicitações em um curto período de tempo
 - Análise do Tráfego com uso de ferramentas adequadas, como citadas acima ( Wireshark, TCPDUmp, netstat etc)
+
+## Referências
+- https://www.hostinger.com.br/tutoriais/o-que-e-ddos-e-como-se-proteger-de-ataques
+- https://www.cloudflare.com/pt-br/learning/ddos/what-is-a-ddos-attack/
