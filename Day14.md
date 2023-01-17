@@ -13,10 +13,10 @@ infectados por um malware, onde cada dispositivo infectado é adicionado a uma r
 permitindo assim que sejam controlados remotamente. Quando um dispositivo é infectado, chamamos-os de bots ou zumbis, e um grupo de bots na mesma rede, é chamado de botnet. Após uma botnet ser estabelecida, o invasor é capaz de direcionar o ataque enviando instruções remotas para cada bot na rede, ou seja, quanto mais bots compor a rede, maior será o número de solicitações enviadas ao alvo, fazendo com que o serviço, servidor ou rede fique offline (fora de serviço).
 
 ## DDOS do lado do servidor
-- O servidor, serviço ou rede, por trabalhar com uma estrutura de threads, ou seja, é capaz de processar x tarefas 
-concorrentemente, ao receber solicitações e todos os seus threads já estiverem processando outras tarefas, as solicitações 
-que vão sendo recebidas e armazenadas em uma fila de espera, sendo lidas sequencialmente após certo thread ter finalizado o 
-processamento da solicitação anterior e assim por diante. Quando temos inúmeras solicitações por segundo, como cada thread está ocupado lendo as solicitações, diversas vão sendo armazenas em fileira, causando a sobrecarga da infraestrutura.
+- O servidor, serviço ou rede, por trabalhar com uma estrutura de threads, é capaz de processar x tarefas 
+concorrentemente. Ao receber solicitações e todos os seus threads já estiverem processando outras tarefas, as solicitações 
+vão sendo armazenadas em uma fila de espera, sendo lidas sequencialmente após certo thread ter finalizado o 
+processamento da solicitação anterior e assim por diante. Quando temos inúmeras solicitações por segundo, e caso cada thread esteja ocupado lendo as solicitações, diversas outras vão sendo armazenadas em fileira, excedendo o limite da fila e causando a sobrecarga da infraestrutura.
 
 ## Como indetificar um ataque DDOS
 - O sintoma mais comum de um ataque DDOS, é que um serviço fique lento ou indisponível repentinamente. Como o sintoma citado
