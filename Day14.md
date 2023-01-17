@@ -20,8 +20,8 @@ processamento da solicitação anterior e assim por diante. Quando temos inúmer
 
 ## Como indetificar um ataque DDOS
 - O sintoma mais comum de um ataque DDOS, é que um serviço fique lento ou indisponível repentinamente. Como o sintoma citado
-anteriormente pode ocorrer devido ao grande tráfego normal, é necessário uma análise mais profunda para averiguação da situação.
-As ferramentas de análise de dados de tráfego, como o TCPDump, Wireshark entre outros, podem nos ajudaro a detectar alguns 
+anteriormente pode ocorrer devido ao grande volume de tráfego normal, é necessário uma análise mais profunda para averiguação da situação.
+As ferramentas de análise de dados de tráfego, como o TCPDump, Wireshark entre outros, podem nos ajudar a detectar alguns 
 desses sinais de um ataque de DDoS:
 - Uma grande quantidade de tráfego vindo de um único endereço de IP, ou de uma mesma faixa de endereços IP
 - Grande número de tráfego de usuários com o mesmo tipo de dispositivo, geolocalização ou versão do browser
@@ -34,10 +34,10 @@ desses sinais de um ataque de DDoS:
 - NTP Flood -> envia pacotes válidos, porém falsificados de NTP a um alvo
 - SYN Flood -> a memória de conexão do servidor é sobrecarregada devido ao alto número de pacores recebidos por uma comunicação TCP
 - VoIP Flood -> envia inúmeras solicitações falsas, originadas de vários Ip's diferentes, atingindo protocolos do tipo VoIP
-- POD - afeta diretamente os protoclos IP, enviando a quantidade máxima de pacotes de dados que os IP's conseguem suportar
+- POD -> afeta diretamente os protoclos IP, enviando a quantidade máxima de pacotes de dados que os IP's conseguem suportar
 
 ## Como se proteger de um ataque DDOS
-- Não existe uma fórmula definitva para impedirmos um ataque DDOS, porém tem diversas maneiras de eviarmos o ataque e mitigá-lo
+- Não existe uma fórmula definitiva para impedirmos um ataque DDOS, porém tem diversas maneiras de o evitarmos e mitigá-los
 - Usar um Firewall para gerenciar as conexões
 - Utilizar um servidor de hospedagem como defesa adicional (Cloudflare)
 - Integrar um sistema de reCAPTCHA em páginas de formulários
